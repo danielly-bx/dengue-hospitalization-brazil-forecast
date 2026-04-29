@@ -1,0 +1,16 @@
+### Contexto
+
+08/04/2026
+O código 'Data WB/get_wb_users_year foi usado para gerar a tabela com a base de médicos por ano do WB para a revisão de pares do artigo 2. Tabela -> 'Data WB/Data WB/active_physician_wb_yearly.csv'
+
+10/04/2026
+A tabela de Data IBGE foi obtida no projeto do artigo 3.
+
+11/04/2026
+O arquivo 'Data SIH Hospitalization/data_sih_hospitalization.csv' foi obtido pela Dani no começo do artigo 2.
+
+
+### Ações antes de mandar o código para o repositório público (exigido pela revista do artigo).
+- Excluir os códigos 'get_wb_users_month', 'get_wb_users_week' e as tabelas 'active_physician_wb_monthly.csv' e 'active_physician_wb_weekly.csv';
+- Adaptar o código de 'get_wb_users_year' para não mostrar tabelas fonte da Afya;
+- Adicionar código que carregou os dados de hospitalização sih (está no workspace antigo) e colocar na pasta 'Data SIH Hospitalization'
